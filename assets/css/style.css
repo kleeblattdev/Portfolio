@@ -28,7 +28,7 @@ h1{
     font-family: 'Architects Daughter', cursive;
 }
 
-a{
+a, p, h2{
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
     color: #222831;
@@ -39,18 +39,21 @@ a{
 header{
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
     height: 10vh;
-    margin: 2%;
+    margin: 2vw;
 }
 
 header nav a{
-    margin: 0 2%;
+    padding: 5px 30px;
 }
 
 .buttonStyle{
     color: #EEEEEE;
     background-color: #00ADB5;
-    padding: 2% 4%;
-    border-radius: 30%;
+    padding: 5px 25px;
+    border-radius: 10px;
 }
+
+/* Main Style - About Me */
+
