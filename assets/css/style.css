@@ -1,0 +1,56 @@
+/* font-family
+font-family: 'Architects Daughter', cursive;
+font-family: 'Montserrat', sans-serif; */
+
+/* color-scheme
+ #222831, #393E46, #00ADB5, #EEEEEE */
+
+@font-face {
+    font-family: 'Architects Daughter';
+    src: url(../fonts/Architects_Daughter/ArchitectsDaughter-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+
+h1{
+    color: #00ADB5;
+    font-family: 'Architects Daughter', cursive;
+}
+
+a{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: #222831;
+}
+
+/* Header Style */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    height: 10vh;
+    margin: 2%;
+}
+
+header nav a{
+    margin: 0 2%;
+}
+
+.buttonStyle{
+    color: #EEEEEE;
+    background-color: #00ADB5;
+    padding: 2% 4%;
+    border-radius: 30%;
+}
