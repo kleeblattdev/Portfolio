@@ -35,17 +35,17 @@ a, p, h1, h2{
     color: #222831;
 }
 
-/* Navigation Style */
+/* Header Style */
 
-nav{
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 10vh;
-    padding: 5vh 2vw;
+    padding: 5vh 2vw 10vh;
 }
 
-nav a{
+header nav a{
     padding: 5px 10px;
 }
 
@@ -56,47 +56,46 @@ nav a{
     border-radius: 10px;
 }
 
-/* Header Style - About Me */
+/* Main Style - About Me */
 
-header section{
+.hello {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    height: 80vh;
-    width: 80vw;
-    margin: 20px 50px;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.subHeadline{
+.hello p:first-of-type{
     color: #00ADB5;
     text-transform: uppercase;
 }
 
-h1{
+.hello h1{
     font-weight: 700;
     font-size: 3rem;
     width: 300px;
+    margin-bottom: 20px;
+}
+
+.hello p:last-of-type{
+    margin-bottom: 15px;
 }
 
 .profileImg{
-    width: 500px;
-    justify-items: flex-end;
+    width: 600px;
 }
 
-header article{
+.aboutMe{
     display: flex;
+    align-items: center;
 }
 
-h2{
+.aboutMe h2{
     font-weight: 700;
     font-size: 3.5rem;
     width: 250px;
     padding: 30px;
 }
 
-header article p{
-    padding: 30px;
-}
 
 .logoSize{
     height: 60px;
