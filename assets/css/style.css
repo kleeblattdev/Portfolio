@@ -23,29 +23,30 @@ font-family: 'Montserrat', sans-serif; */
 
 /* Global Styles */
 
-h1{
+.logo{
     color: #00ADB5;
     font-family: 'Architects Daughter', cursive;
+    font-size: 2rem;
 }
 
-a, p, h2{
+a, p, h1, h2{
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
     color: #222831;
 }
 
-/* Header Style */
+/* Navigation Style */
 
-header{
+nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 10vh;
-    margin: 2vw;
+    padding: 5vh 2vw;
 }
 
-header nav a{
-    padding: 5px 30px;
+nav a{
+    padding: 5px 10px;
 }
 
 .buttonStyle{
@@ -55,5 +56,49 @@ header nav a{
     border-radius: 10px;
 }
 
-/* Main Style - About Me */
+/* Header Style - About Me */
 
+header section{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 80vh;
+    width: 80vw;
+    margin: 20px 50px;
+}
+
+.subHeadline{
+    color: #00ADB5;
+    text-transform: uppercase;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 3rem;
+    width: 300px;
+}
+
+.profileImg{
+    width: 500px;
+    justify-items: flex-end;
+}
+
+header article{
+    display: flex;
+}
+
+h2{
+    font-weight: 700;
+    font-size: 3.5rem;
+    width: 250px;
+    padding: 30px;
+}
+
+header article p{
+    padding: 30px;
+}
+
+.logoSize{
+    height: 60px;
+    width: 60px;
+}
